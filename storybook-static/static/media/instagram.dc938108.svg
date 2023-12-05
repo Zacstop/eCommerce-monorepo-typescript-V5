@@ -1,0 +1,22 @@
+var _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgInstagram = function SvgInstagram(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16 11.37a4 4 0 1 1-7.913 1.173A4 4 0 0 1 16 11.37M17.5 6.5h.01"
+  }))));
+};
+export { SvgInstagram as ReactComponent };
+export default "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Imljb25zL2JsYWNrIC8gVW5maWxsIC8gIGluc3RhZ3JhbSI+CjxwYXRoIGlkPSJWZWN0b3IiIGQ9Ik0xNyAySDdDNC4yMzg1OCAyIDIgNC4yMzg1OCAyIDdWMTdDMiAxOS43NjE0IDQuMjM4NTggMjIgNyAyMkgxN0MxOS43NjE0IDIyIDIyIDE5Ljc2MTQgMjIgMTdWN0MyMiA0LjIzODU4IDE5Ljc2MTQgMiAxNyAyWiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBpZD0iVmVjdG9yXzIiIGQ9Ik0xNiAxMS4zNjk4QzE2LjEyMzQgMTIuMjAyMSAxNS45ODEyIDEzLjA1MiAxNS41OTM3IDEzLjc5ODhDMTUuMjA2MiAxNC41NDU2IDE0LjU5MzEgMTUuMTUxMiAxMy44NDE2IDE1LjUyOTVDMTMuMDkwMSAxNS45MDc3IDEyLjIzODQgMTYuMDM5NCAxMS40MDc3IDE1LjkwNTdDMTAuNTc3MSAxNS43NzIxIDkuODA5NzEgMTUuMzc5OSA5LjIxNDc5IDE0Ljc4NUM4LjYxOTg3IDE0LjE5MDEgOC4yMjc2OCAxMy40MjI3IDguMDk0MDIgMTIuNTkyQzcuOTYwMzUgMTEuNzYxNCA4LjA5MjAyIDEwLjkwOTcgOC40NzAyOCAxMC4xNTgyQzguODQ4NTQgOS40MDY2NyA5LjQ1NDE0IDguNzkzNTUgMTAuMjAwOSA4LjQwNjA1QzEwLjk0NzcgOC4wMTg1NiAxMS43OTc3IDcuODc2NCAxMi42MyA3Ljk5OTgxQzEzLjQ3ODkgOC4xMjU3IDE0LjI2NDggOC41MjEyOCAxNC44NzE2IDkuMTI4MTJDMTUuNDc4NSA5LjczNDk2IDE1Ljg3NDEgMTAuNTIwOSAxNiAxMS4zNjk4WiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBpZD0iVmVjdG9yXzMiIGQ9Ik0xNy41IDYuNUgxNy41MSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L2c+Cjwvc3ZnPgo=";
