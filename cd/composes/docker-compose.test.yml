@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  frontend:
+    image: frontend
+    build:
+      context: ../../../
+      dockerfile: ../dockerfiles/Dockerfile.test
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: process.env.NODE_ENV
+    volumes:
+      - ../../../:/usr/app
+

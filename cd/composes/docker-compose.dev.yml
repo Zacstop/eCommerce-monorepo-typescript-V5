@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  frontend:
+    image: frontend
+    build:
+      context: ../../../
+      dockerfile: ci/docker/dockerfiles/Dockerfile.dev
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ../../../:/usr/app
+    networks:
+      - cro_external_network
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ../nginx/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    networks:
+      - cro_external_network
+
+
+networks:
+  cro_external_network:
+    external: true

@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@app-front/*": ["./app-front*"],
+      "@cms-front": ["./cms-front"],
+      "@components/*": ["./components*"],
+    }
+  }
+}

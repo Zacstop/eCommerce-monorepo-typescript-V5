@@ -1,0 +1,17 @@
+# syntax=docker/dockerfile:1
+
+FROM node:16.10.0-alpine3.14 as base
+
+LABEL version="1.0.0"
+LABEL maintainer="Team_P"
+
+FROM base as prod
+WORKDIR /usr/app
+ENV NODE_ENV=production
+COPY ["package.json", "package-lock.json", "./"]
+RUN apk add --no-cache bash
+RUN npm install -g craco
+RUN npm ci --only=production
+COPY . .
+EXPOSE 3000
+CMD ["npm", "run", "start:prod"]

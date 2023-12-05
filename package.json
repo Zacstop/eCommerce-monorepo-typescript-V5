@@ -1,12 +1,30 @@
 {
-  "name": "eCommerce-monorepo-typescript-V2",
+  "name": "ecommerce-monorepo-typescript-v2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [],
   "author": "kang-san",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.2",
+    "@storybook/addon-interactions": "^7.6.2",
+    "@storybook/addon-links": "^7.6.2",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.6.2",
+    "@storybook/nextjs": "^7.6.2",
+    "@storybook/react": "^7.6.2",
+    "@storybook/test": "^7.6.2",
+    "@types/node": "^20.10.1",
+    "@types/react": "^18.2.39",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.2",
+    "typescript": "^5.3.2"
+  }
 }
