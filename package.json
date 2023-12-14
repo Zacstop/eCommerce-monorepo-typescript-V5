@@ -13,6 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "@nrwl/next": "^17.2.1",
+    "@radix-ui/react-radio-group": "^1.1.3",
+    "@radix-ui/react-tabs": "^1.0.4",
     "@storybook/addon-essentials": "7.6.4",
     "@storybook/addon-interactions": "7.6.4",
     "@storybook/addon-links": "7.6.4",
@@ -29,6 +31,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "storybook": "7.6.4",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^5"
   },
   "eslintConfig": {
