@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "overrides": [
     {
       "files": "*.ts",
@@ -17,4 +18,11 @@
       }
     }
   ]
+=======
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "bracketSpacing": true
+>>>>>>> 07f93628a68fb392a9708a1182b10a0ba88eded6
 }

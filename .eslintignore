@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 node_modules
 
 build
 dist
+=======
+**/*/node_modules
+
+**/*/build
+**/*/dist
+>>>>>>> 07f93628a68fb392a9708a1182b10a0ba88eded6
 
 .next

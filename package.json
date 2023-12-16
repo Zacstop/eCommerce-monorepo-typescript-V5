@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "ecommerce-monorepo-typescript-v2",
+=======
+  "name": "eCommerce-monorepo-typescript-V3",
+>>>>>>> 07f93628a68fb392a9708a1182b10a0ba88eded6
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +13,7 @@
     "build-storybook": "storybook build"
   },
   "keywords": [],
+<<<<<<< HEAD
   "author": "kang-san",
   "license": "ISC",
   "devDependencies": {
@@ -39,5 +44,36 @@
     "react-i18next": "^13.5.0",
     "react-query": "^3.39.3",
     "styled-components": "^6.1.1"
+=======
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nrwl/next": "^17.2.1",
+    "@radix-ui/react-radio-group": "^1.1.3",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@storybook/addon-essentials": "7.6.4",
+    "@storybook/addon-interactions": "7.6.4",
+    "@storybook/addon-links": "7.6.4",
+    "@storybook/addon-onboarding": "1.0.9",
+    "@storybook/blocks": "7.6.4",
+    "@storybook/nextjs": "7.6.4",
+    "@storybook/react": "7.6.4",
+    "@storybook/test": "7.6.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "eslint": "^8.55.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "prettier": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.6.4",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+>>>>>>> 07f93628a68fb392a9708a1182b10a0ba88eded6
   }
 }
