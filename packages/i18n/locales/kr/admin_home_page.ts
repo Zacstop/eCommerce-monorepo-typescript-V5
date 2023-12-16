@@ -1,0 +1,17 @@
+export default {
+  SystemInfo: '시스템 정보',
+  DBServer: 'DB 서버',
+  FileStorage: '파일 저장소',
+  MessageBroker: '메시지 브로커',
+  node: '노드',
+  address: '주소',
+  role: '역할',
+  status: '상태',
+  DBusage: 'DB 사용량',
+  finalUpdateDate: '마지막 상태 변화 일시',
+  path: '경로',
+  using: '사용 중',
+  name: '이름',
+  host: '호스트',
+  channelCount: '채널 수',
+};

@@ -74,3 +74,5 @@ export const QInputStyle = {
     font-weight: 600;
   `,
 };
+
+

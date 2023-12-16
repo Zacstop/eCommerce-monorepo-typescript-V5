@@ -1,0 +1,17 @@
+export default {
+  SystemInfo: 'System Info',
+  DBServer: 'DB Server',
+  FileStorage: 'File Storage',
+  MessageBroker: 'Message Broker',
+  node: 'Node',
+  address: 'Address',
+  role: 'Role',
+  status: 'Status',
+  DBusage: 'DB usage',
+  finalUpdateDate: 'Final Update Date',
+  path: 'Path',
+  using: 'Using',
+  name: 'Name',
+  host: 'Host',
+  channelCount: 'Channel Count',
+};

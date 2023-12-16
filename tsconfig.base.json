@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    /* Basic Options */
     "baseUrl": ".", // 기준 경로 설정
     "paths": {
+      "@apps/*": ["apps/*"],
       "@design-system/*": ["design-system/*"],
       "@packages/*": ["packages/*"],
     },

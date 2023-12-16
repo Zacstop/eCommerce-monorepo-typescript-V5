@@ -1,0 +1,16 @@
+export { default as common } from './common';
+export { default as admin_home_page } from './admin_home_page';
+export { default as admin_locationmanage_page } from './admin_locationmanage_page';
+export { default as admin_kioskmanage_page } from './admin_kioskmanage_page';
+export { default as admin_clothlearningmodel_page } from './admin_clothlearningmodel_page';
+export { default as admin_systemadminmanage_page } from './admin_systemadminmanage_page';
+export { default as user_home_page } from './user_home_page';
+export { default as user_checkstatus_page } from './user_checkstatus_page';
+export { default as user_personalstatus_page } from './user_personalstatus_page';
+export { default as user_kioskmanage_page } from './user_kioskmanage_page';
+export { default as user_clothsetcustom_page } from './user_clothsetcustom_page';
+export { default as user_clothmanage_page } from './user_clothmanage_page';
+export { default as user_workermanage_page } from './user_workermanage_page';
+export { default as user_managersetting_page } from './user_managersetting_page';
+export { default as user_alarmsendrecord_page } from './user_alarmsendrecord_page';
+export { default as page_layout } from './page_layout';
